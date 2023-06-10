@@ -12,7 +12,7 @@ connect_time=5
 
 # Download current listing of federal domains for Executive agencies, if needed.
 if [ ! -f "$file" ]; then
-    curl -s https://raw.githubusercontent.com/GSA/data/master/dotgov-domains/current-federal.csv \
+    curl -s https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv \
     | grep "Federal Agency - Executive" \
     > $file
 fi
