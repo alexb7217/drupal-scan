@@ -9,6 +9,9 @@ Modify the default settings if needed. Invoke the script and direct output to a 
 ```bash
 ~$ ./scan.sh > site-generators.csv
 ```
+### Dependencies
+
+* [csvkit](https://csvkit.readthedocs.io/en/latest/) CSV command line tools suite
 
 ## Other sources of similar data
 
